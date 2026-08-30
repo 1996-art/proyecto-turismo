@@ -1,0 +1,12 @@
+{
+  "nombre": "proyecto-turismo",
+  "version": "1.0.0",
+  "descripcion": "API para sitio web turístico",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
