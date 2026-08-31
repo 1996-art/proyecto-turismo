@@ -1,0 +1,40 @@
+=============================
+ENDPOINTS — API PROYECTO TURÍSTICO
+=============================
+
+BASE URL: http://localhost:3000
+
+1️⃣ OBTENER TODOS LOS LUGARES
+   Método: GET
+   Ruta:   /api/lugares
+   Respuesta: Lista completa de lugares
+
+2️⃣ OBTENER UN LUGAR POR ID
+   Método: GET
+   Ruta:   /api/lugares/:id
+   Ejemplo: /api/lugares/1
+   Respuesta: Datos del lugar específico
+
+3️⃣ AGREGAR LUGAR NUEVO
+   Método: POST
+   Ruta:   /api/lugares
+   Body:   { "nombre": "", "ubicacion": "", "descripcion": "" }
+   Respuesta: Lugar creado + código 201
+
+4️⃣ MODIFICAR LUGAR EXISTENTE
+   Método: PUT
+   Ruta:   /api/lugares/:id
+   Ejemplo: /api/lugares/1
+   Body:   Datos a actualizar
+   Respuesta: Lugar actualizado + código 200
+
+5️⃣ ELIMINAR LUGAR
+   Método: DELETE
+   Ruta:   /api/lugares/:id
+   Ejemplo: /api/lugares/3
+   Respuesta: Mensaje de confirmación + código 200
+
+=============================
+Servidor: Node.js + Express
+Puerto: 3000
+=============================
